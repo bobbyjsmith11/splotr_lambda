@@ -1,0 +1,1 @@
+aws lambda create-function --region us-east-2 --function-name HelloPython --zip-file fileb://hello_python.zip --role arn:aws:iam::108954560286:role/service-role/myTestRole --handler hello_python.my_handler --runtime python3.6 --timeout 15 --memory-size 512

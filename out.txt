@@ -1,0 +1,1 @@
+{"errorMessage": "'queryStringParameters'", "errorType": "KeyError", "stackTrace": [["/var/task/hello_python.py", 6, "my_handler", "dat = event['queryStringParameters']"]]}
